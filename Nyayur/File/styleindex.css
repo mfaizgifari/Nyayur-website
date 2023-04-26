@@ -1,0 +1,58 @@
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Budidaya";
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav.link {
+  margin-right: 50px;
+  margin-left: 50px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid rgb(14, 167, 0);
+}
+.main {
+  background: url(./asset/vegebg.png) no-repeat;
+  background-size: cover;
+  height: 94vh;
+  width: 100%;
+}
+.main h1 {
+  font-size: 5rem;
+  color: white;
+  margin-top: 360px;
+  margin-left: 100px;
+  font-family: "Helvetica";
+}
+.main h2 {
+  font-size: 5rem;
+  color: white;
+  margin-left: 100px;
+  font-family: "Helvetica";
+}
+.btn1 {
+  height: 45px;
+  width: 15%;
+  border: none;
+  outline: none;
+  background-color: #198754;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  margin-left: 240px;
+  font-weight: 500;
+  border-radius: 60px;
+}

@@ -1,0 +1,88 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #757676;
+  color: #000000;
+}
+.navbar-brand {
+  font-size: 15pt;
+  color: black;
+  font-family: "Budidaya";
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav.link {
+  margin-right: 50px;
+  margin-left: 50px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid rgb(14, 167, 0);
+}
+.text-login {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  font-family: "Budidaya";
+}
+
+body {
+  height: 800vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login {
+  margin-top: 200px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.login h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 300px;
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.register h1 {
+  text-align: center;
+  font-size: 16pt;
+
+  color: black;
+  text-decoration-color: #ea215a;
+  text-decoration-thickness: 0.125em;
+  text-underline-offset: 1.5px;
+}
